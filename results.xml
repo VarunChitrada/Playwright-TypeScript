@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.919986999999999">
+<testsuite name="recordnplay/tc2.spec.ts" timestamp="2023-12-25T15:58:05.962Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.566" errors="0">
+<testcase name="test, @tc2" classname="recordnplay/tc2.spec.ts" time="12.566">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/recordnplay-tc2-test-tc2-chromium/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/recordnplay-tc2-test-tc2-chromium/test-finished-2.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

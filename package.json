@@ -1,0 +1,41 @@
+{
+  "name": "onlinecompiler",
+  "version": "1.0.0",
+  "description": "JDoodle Test Automation using Playwright with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "testchrome": "npx playwright test --project=chromium",
+    "lint": "eslint . --ext .js,.ts",
+    "allure-report": "npx allure generate allure-results --clean && allure open",
+    "clean": "rimraf allure-report && rimraf allure-results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarunChitrada/onlinecompiler.git"
+  },
+  "keywords": [
+    "Playwright",
+    "RecordnPlay",
+    "Automation",
+    "Testing",
+    "TestAutomation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/VarunChitrada/onlinecompiler#readme",
+  "dependencies": {
+    "allure-commandline": "^2.25.0",
+    "allure-js-commons": "^2.10.0",
+    "allure-playwright": "^2.10.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^2.10.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  }
+}
